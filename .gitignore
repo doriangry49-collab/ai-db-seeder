@@ -1,0 +1,30 @@
+# Environment variables and secrets
+.env
+.env.local
+*.key
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
